@@ -1,0 +1,92 @@
+.card {
+  background-color: #fff;
+  padding: 20px 20px 23px;
+  margin: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  height: fit-content;
+}
+
+.header {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+  font-size: 16px;
+  color: #555;
+}
+
+.list li {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.editButton {
+  padding: 8px 15px;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.editButton:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.fileInput {
+  display: none;
+}
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 300px;
+  z-index: 1000;
+  text-align: center;
+}
+
+.popupContent {
+  margin-bottom: 20px;
+}
+
+.popupIcon {
+  margin-bottom: 15px;
+}
+
+.popupIcon svg {
+  fill: #28a745; /* Green color for success */
+}
+
+.popupMessage {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.closeButton {
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.closeButton:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+}
